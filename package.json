@@ -1,6 +1,6 @@
 {
   "name": "image-xterm-loader",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "description": "Load images with Webpack as XTerm 256-color compatible strings.",
   "repository": {
     "type": "git",
