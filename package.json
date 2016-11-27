@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/dfrankland/image-xterm-loader#readme",
   "files": [
-    "./dist/index.js"
+    "dist/index.js"
   ],
   "main": "./dist/index.js",
   "scripts": {
     "prepublish": "npm run dist",
-    "dist": "babel src --out-dir dist",
+    "dist": "babel ./src --out-dir ./lib",
     "test": "npm run dist && ./node_modules/.bin/webpack --config ./test/webpack.config.js && node ./test/dist/index.js"
   },
   "devDependencies": {
