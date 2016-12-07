@@ -7,7 +7,7 @@ Load images with Webpack as XTerm 256-color compatible strings.
 ## Install
 
 ```bash
-npm install image-webpack-loader --save-dev
+npm install image-xterm-loader --save-dev
 ```
 
 ## Usage
